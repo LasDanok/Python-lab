@@ -1,0 +1,41 @@
+1 Задание)
+ 
+a = input('Ваше имя: ')
+print ('Приветствую, ', a)
+
+2 Задание)
+
+a = float(input('Введите длину комнаты: '))
+b = float(input('Введите ширину комнаты: '))
+print ('Площадь комнаты равна: ', a*b)
+
+3 Задание)
+
+n = int(input("Введите число n: "))
+summ = 0
+    
+for i in range (n+1):
+    summ+=i
+print("Сумма равна ", summ)
+
+4 Задание)
+
+hours,minutes,seconds = map(int,input('Введите в следующей последовательности часы, минуты, секунды: ').split())
+print ('Общее количество секунд равно: ', hours*3600+minutes*60+seconds)
+
+
+5 Задание)
+
+height,weight = map(float,input('Введите в следующем порядке рост, вес: ').split())
+print ('ИМТ', weight/height**2)
+
+
+6 Задание)
+
+number = int(input('Введите целое число: '))
+summ=0
+while number>0:
+    digit=number%10
+    summ+=digit
+    number=number//10
+print ('Сумма цифр целого числа = ', summ)
